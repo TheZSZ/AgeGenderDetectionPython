@@ -17,26 +17,37 @@ Commands:
 
 
 Comments:
-- *Mostly* works correctly
+- Billie Eilish
 ![Screenshot](images/billieeilish.jpg)
 ![Screenshot](images/billieeilish-detection.png)
+- Grandson
 ![Screenshot](images/grandson.jpg)
 ![Screenshot](images/grandson-detection.png)
+- Kanye West
 ![Screenshot](images/kanye.jpg)
 ![Screenshot](images/kanye-detection.png)
+- Logic
 ![Screenshot](images/logic.jpg)
 ![Screenshot](images/logic-detection.png)
+- Macklemore
 ![Screenshot](images/macklemore.jpg)
 ![Screenshot](images/macklemore-detection.png)
+- Rich Brian
 ![Screenshot](images/richbrian.jpg)
 ![Screenshot](images/richbrian-detection.png)
 
-- Semi-realistic cartoon charater (Heavy from Team Fortress 2)
-![Screenshot](images/tf2heavy.jpg)
-![Screenshot](images/tf2heavy-detection.png)
-- Works with multiple people
-![Screenshot](images/HouseoftheRisingSun.jpg)
-![Screenshot](images/HouseoftheRisingSun-detection.png)
-![Screenshot](images/SabreFencers.jpg)
-![Screenshot](images/SabreFencers-detection.png)
-- Cannot detect faces if wearing objects around or on face like Hijab or if side profile :(
+- Eminem (Apparently he has a baby face)
+![Screenshot](images/eminem.jpg)
+![Screenshot](images/eminem-detection.png)
+![Screenshot](images/slimshady.jpg)
+![Screenshot](images/slimshady-detection.png)
+
+- Run The Jewels (sort of works)
+![Screenshot](images/rtj.jpg)
+![Screenshot](images/rtj-detection.png)
+![Screenshot](images/rtj2.jpg)
+![Screenshot](images/rtj2-detection.png)
+
+
+
+
