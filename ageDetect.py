@@ -2,7 +2,7 @@
 # Age and (Binary) Gender Detection Program
 # 1/4/2022
 
-import cv2, sys                                                                                         # cv2 is OpenCV lib, sys for argv
+import cv2, os, sys                                                                                     # cv2 is OpenCV lib, sys for argv
 
 if len(sys.argv) == 1:                                                                                  # Help Message is argv[1] doesn't exist
     print("\nUsage: 'python ageDetect.py [path/to/image]\nUsage: 'python ageDetect.py camera'\n")       # Tells user that they can input file path or "camera" for Live capture
@@ -64,7 +64,12 @@ def Live():
 
 # Function for age and gender detection via inputted image
 def Photo():
-    capture = cv2.VideoCapture(sys.argv[1])                                                             # Passes file location into capture
+    imagePath = sys.argv[1]                                                                             # argv (image file)
+    exists = os.path.exists(imagePath)                                                                  # Checking if the path exists
+    if exists == False:                                                                                 # If the path does not exist
+        print("\nPath does not exist!\n")                                                               # Print message
+        sys.exit(0)  
+    capture = cv2.VideoCapture(imagePath)                                                               # Passes file location into capture
     while cv2.waitKey(1) < 0:                                                                           # While no button clicked
         a, image = capture.read()                                                                       # Capture input
         if not a:
